@@ -6,7 +6,8 @@
     "dev": "./scripts/next-with-node22.sh dev --port 3000",
     "build": "./scripts/next-with-node22.sh build",
     "start": "./scripts/next-with-node22.sh start",
-    "lint": "./scripts/next-with-node22.sh lint"
+    "lint": "./scripts/next-with-node22.sh lint",
+    "build:pages-data": "node ./scripts/generate-github-pages-data.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",
